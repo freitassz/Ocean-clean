@@ -1,0 +1,61 @@
+/* HAEDER */
+
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 1% 0 1% 0;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+header p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style:normal;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 70px;
+    padding: 20px 0px 0px 0px;
+}
+.menu p{
+    margin: 0px 35px 0 0;
+}
+
+.botao-doar{
+    border: solid #1CADFF;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 10px 25px 8.5px;
+    color: #1CADFF;
+}
+
+/* SOBRE */
+
+#Sobre{
+    background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
+    height: 75vh;
+    border-bottom-right-radius: 250px;
+    
+}
+
+.sobre {
+    border-bottom-right-radius: 250px;
+    height: 75vh;
+    background-image:url(./Trofeu-e-garrafa.png);
+    background-repeat: no-repeat;
+    background-position: bottom -1px right 100px;
+
+
+}
+
+.Trofeu-e-garrafa{
+    z-index: 10;
+    position: absolute;
+    top: 30%;
+}
