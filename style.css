@@ -34,7 +34,7 @@ header p{
     color: #1CADFF;
 }
 
-/* SOBRE */
+/* Slogan */
 
 #slogan{
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
@@ -50,7 +50,7 @@ header p{
     background-position: bottom -1px right 100px;
     display: flex;
     align-items: center;
-
+    padding-top: 60px;
 }
 
 .slogan h1 {
@@ -67,11 +67,16 @@ header p{
     color: #FFFFFF;  
 }
 
+/*  SOBRE  */
+
 #sobre{
     height: 75vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-style:normal;
-
+    margin-left: 7rem;
+    margin-top: 105px;
+    display: flex;
+    flex: auto;
 }
 
 #sobre h2{
@@ -85,7 +90,18 @@ header p{
     height: 4px;
     background: #D9D9D9;
     border: none;
-    
+    flex: auto;
+    margin: 20px 0 20px 0;
+}
+
+#sobre p{
+    font-weight: 900px;
+
+}
+
+#sobre img{
+    width: 422px;
+    height: 419px;
 }
 
 
