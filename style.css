@@ -6,7 +6,7 @@ header{
 }
 
 header img{
-    margin-left: 7rem;
+    margin: 1rem 0rem 1rem 7rem;
 }
 
 header p{
@@ -20,7 +20,7 @@ header p{
     align-items: center;
     float: right;
     margin-right: 70px;
-    padding: 20px 0px 0px 0px;
+    padding: 35px 0px 0px 0px;
 }
 .menu p{
     margin: 0px 35px 0 0;
@@ -36,13 +36,13 @@ header p{
 
 /* SOBRE */
 
-#Sobre{
+#slogan{
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
     border-bottom-right-radius: 250px;
     
 }
 
-.sobre {
+.slogan {
     border-bottom-right-radius: 250px;
     height: 75vh;
     background-image:url(./Trofeu-e-garrafa.png);
@@ -53,7 +53,7 @@ header p{
 
 }
 
-.sobre h1 {
+.slogan h1 {
     margin-left: 7rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-style:normal;
@@ -65,6 +65,27 @@ header p{
     align-items: center;
     
     color: #FFFFFF;  
+}
+
+#sobre{
+    height: 75vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style:normal;
+
+}
+
+#sobre h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #1C88D6;
+}
+#sobre hr{
+    width: 200px;
+    height: 4px;
+    background: #D9D9D9;
+    border: none;
+    
 }
 
 
