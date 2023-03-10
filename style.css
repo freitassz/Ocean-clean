@@ -7,7 +7,7 @@ header{
 }
 
 header img{
-    margin-left: 50px;
+    margin-left: 7rem;
 }
 
 header p{
@@ -39,7 +39,6 @@ header p{
 
 #Sobre{
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
-    height: 75vh;
     border-bottom-right-radius: 250px;
     
 }
@@ -50,12 +49,24 @@ header p{
     background-image:url(./Trofeu-e-garrafa.png);
     background-repeat: no-repeat;
     background-position: bottom -1px right 100px;
-
+    display: flex;
+    align-items: center;
 
 }
 
-.Trofeu-e-garrafa{
-    z-index: 10;
-    position: absolute;
-    top: 30%;
+.sobre h1 {
+    margin-left: 7rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style:normal;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;  
 }
+
+
+
