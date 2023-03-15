@@ -121,7 +121,7 @@ header p{
 }
 
 #ideais-titulo{
-
+    padding-top: 15px;
     font-family: 'Jost', sans-serif;
     color: white;
     font-weight: 600;
@@ -170,11 +170,11 @@ header p{
     border: 3px solid #FFFFFF;
     border-radius: 15px;
     box-sizing: border-box;
-    padding: 9px 53px ;
+    padding: 7px 53px ;
     color: #ffffff;
     width: 219px;
     height: 53px;
-    margin: 24px auto;
+    margin: 23px auto;
     
 }
 
