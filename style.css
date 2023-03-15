@@ -148,7 +148,15 @@ header p{
 }
 
 .ideais img{
+    margin: 9.5px;
+}
 
+.ideais p{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
 }
 
 
@@ -157,6 +165,26 @@ header p{
     height: 317px;
     background: white;
     border-radius: 15px;
+}
+
+#ideais-botao{
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 9px 53px ;
+    color: #ffffff;
+    width: 219px;
+    height: 53px;
+    
+}
+
+#ideais-botao p{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    width: 110px;
+    height: 35px;
+    font-size: 24px;
+    line-height: 35px;
 }
 
 
