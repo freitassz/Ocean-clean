@@ -1,6 +1,7 @@
-/* HAEDER */
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+    /* HAEDER */
 
 header{
     width: 100%;
@@ -37,7 +38,7 @@ header p{
     color: #1CADFF;
 }
 
-/* Slogan */
+    /* Slogan */
 
 #slogan{
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
@@ -70,7 +71,7 @@ header p{
     color: #FFFFFF;  
 }
 
-/*  SOBRE  */
+    /*  SOBRE  */
 
 #sobre{
     height: 75vh;
@@ -121,24 +122,33 @@ header p{
 }
 
 #ideais-titulo{
+
     font-family: 'Jost', sans-serif;
     color: white;
     font-weight: 600;
     font-size: 40px;
     line-height: 58px;
     text-align: center;
+    position: relative;
+    top: 15px;
 }
-
+    /* IDEAIS DA EMPRESA */
 #ideais hr{
     width: 200px;
     height: 4px;
     background: #FFFFFF;
     border: none;
-    margin: 20px 0 20px 0;
+    margin: 20px auto;
 }
 
 .ideais{
     display: flex;
+    justify-content: space-evenly;
+    margin: 0px 240px;
+}
+
+.ideais img{
+
 }
 
 
@@ -146,6 +156,7 @@ header p{
     width: 259.91px;
     height: 317px;
     background: white;
+    border-radius: 15px;
 }
 
 
