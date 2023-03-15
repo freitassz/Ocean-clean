@@ -48,7 +48,7 @@ header p{
 
 .slogan {
     border-bottom-right-radius: 250px;
-    height: 75vh;
+    height: 500px;
     background-image:url(./Img/Trofeu-e-garrafa.png);
     background-repeat: no-repeat;
     background-position: bottom -1px right 100px;
@@ -61,7 +61,6 @@ header p{
     margin-left: 7rem;
     font-family: 'Jost', sans-serif;
     font-style:normal;
-
     font-weight: 700;
     font-size: 36px;
     line-height: 52px;
@@ -74,7 +73,7 @@ header p{
     /*  SOBRE  */
 
 #sobre{
-    height: 75vh;
+    height: 556px;
     font-family: 'Jost', sans-serif;
     font-style:normal;
     margin-left: 7rem;
@@ -175,6 +174,7 @@ header p{
     color: #ffffff;
     width: 219px;
     height: 53px;
+    margin: 24px auto;
     
 }
 
@@ -185,6 +185,12 @@ header p{
     height: 35px;
     font-size: 24px;
     line-height: 35px;
+}
+
+    /* METAS*/
+
+#meta{
+    height: 500px;
 }
 
 
