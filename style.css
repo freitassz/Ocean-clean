@@ -1,5 +1,7 @@
 /* HAEDER */
 
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
 header{
     width: 100%;
     background-color: #FFFFFF;
@@ -10,7 +12,7 @@ header img{
 }
 
 header p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Jost', sans-serif;
     font-style:normal;
 
 }
@@ -24,6 +26,7 @@ header p{
 }
 .menu p{
     margin: 0px 35px 0 0;
+    font-weight: 500;
 }
 
 .botao-doar{
@@ -45,7 +48,7 @@ header p{
 .slogan {
     border-bottom-right-radius: 250px;
     height: 75vh;
-    background-image:url(./Trofeu-e-garrafa.png);
+    background-image:url(./Img/Trofeu-e-garrafa.png);
     background-repeat: no-repeat;
     background-position: bottom -1px right 100px;
     display: flex;
@@ -55,10 +58,10 @@ header p{
 
 .slogan h1 {
     margin-left: 7rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Jost', sans-serif;
     font-style:normal;
 
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 52px;
     display: flex;
@@ -71,7 +74,7 @@ header p{
 
 #sobre{
     height: 75vh;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Jost', sans-serif;
     font-style:normal;
     margin-left: 7rem;
     margin-top: 105px;
@@ -93,20 +96,56 @@ header p{
     margin: 20px 0 20px 0;
 }
 
+#sobre p:first-of-type{
+    font-weight: 400;
+}
+
 #sobre p{
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-font-size: 24px;
-font-weight: 500;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: left;
-margin-right: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 60px;
 }
 
 #sobre img{
     width: 422px;
     height: 419px;
     margin-right: 7rem;
+}
+
+#ideais{
+    height: 558px;
+    background: linear-gradient(310.37deg, #00138E 10.43%, #1CADFF 68.35%, #1BE0E2 97.31%);
+}
+
+#ideais-titulo{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+}
+
+#ideais hr{
+    width: 200px;
+    height: 4px;
+    background: #FFFFFF;
+    border: none;
+    margin: 20px 0 20px 0;
+}
+
+.ideais{
+    display: flex;
+}
+
+
+.ideais div{
+    width: 259.91px;
+    height: 317px;
+    background: white;
 }
 
 
