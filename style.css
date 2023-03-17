@@ -12,7 +12,7 @@ header img{
     margin: 1rem 0rem 1rem 7rem;
 }
 
-header p{
+header a{
     font-family: 'Jost', sans-serif;
     font-style:normal;
 
@@ -25,7 +25,7 @@ header p{
     margin-right: 70px;
     padding: 35px 0px 0px 0px;
 }
-.menu p{
+.menu a{
     margin: 0px 35px 0 0;
     font-weight: 500;
 }
