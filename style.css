@@ -72,23 +72,23 @@ header p{
 
     /*  SOBRE  */
 
-#sobre{
+.itens{
     height: 556px;
     font-family: 'Jost', sans-serif;
     font-style:normal;
     margin-left: 7rem;
-    margin-top: 105px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-#sobre h2{
+.itens h2{
     font-weight: 700;
     font-size: 40px;
     line-height: 58px;
     color: #1C88D6;
 }
-#sobre hr{
+.itens hr{
     width: 200px;
     height: 4px;
     background: #D9D9D9;
@@ -96,11 +96,11 @@ header p{
     margin: 20px 0 20px 0;
 }
 
-#sobre p:first-of-type{
+.itens p:first-of-type{
     font-weight: 400;
 }
 
-#sobre p{
+.itens p{
     font-size: 24px;
     font-weight: 500;
     line-height: 35px;
@@ -109,7 +109,7 @@ header p{
     margin-right: 60px;
 }
 
-#sobre img{
+.itens img{
     width: 422px;
     height: 419px;
     margin-right: 7rem;
