@@ -15,7 +15,7 @@ header img{
 header a{
     font-family: 'Jost', sans-serif;
     font-style:normal;
-
+    color: black;
 }
 
 .menu{
@@ -25,9 +25,13 @@ header a{
     margin-right: 70px;
     padding: 35px 0px 0px 0px;
 }
+
+
 .menu a{
     margin: 0px 35px 0 0;
     font-weight: 500;
+    text-decoration: none;
+    
 }
 
 .botao-doar{
@@ -37,6 +41,7 @@ header a{
     padding: 10px 25px 8.5px;
     color: #1CADFF;
 }
+
 
     /* Slogan */
 
@@ -193,5 +198,51 @@ header a{
     height: 500px;
 }
 
+footer{
+    background-color: #001623;
+    height: 950px;
+}
+
+#forms{
+    background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
+    border-bottom-left-radius: 250px;
+    height: 558px;
+    
+}
+
+.forms{
+    border-bottom-left-radius: 255px;
+    height: 500px;
+    background-image:url(./Img/Mulher-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom -1px left 50px;
+    padding-top: 60px;
+}
+
+.forms-detalhes{
+    margin: 0px 0px 0px 598px;
+    align-items: flex-end;
+}
+
+.forms-detalhes p:first-of-type{
+    
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+color: white;
+}
+
+.forms p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
 
 
