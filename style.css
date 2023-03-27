@@ -198,10 +198,8 @@ header a{
     height: 500px;
 }
 
-footer{
-    background-color: #001623;
-    height: 950px;
-}
+/* Footer e formulario */
+
 
 #forms{
     background: linear-gradient(131.58deg, #00138E 6%, #1CADFF 67.14%, #1BE0E2 97.71%);
@@ -209,6 +207,7 @@ footer{
     height: 558px;
     
 }
+
 
 .forms{
     border-bottom-left-radius: 255px;
@@ -220,18 +219,20 @@ footer{
 }
 
 .forms-detalhes{
-    margin: 0px 0px 0px 598px;
-    align-items: flex-end;
+    margin: 0px 7rem 0px 0px;
+    display: grid;
+    justify-content: end;
+    
 }
 
 .forms-detalhes p:first-of-type{
     
-font-family: 'Jost';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 58px;
-color: white;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: white;
 }
 
 .forms p{
@@ -240,9 +241,92 @@ color: white;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
-    display: flex;
-    align-items: center;
     color: white;
 }
 
+#forms hr{
+    width: 200px;
+    height: 4px;
+    background: #FFFFFF;
+    border: none;
+    margin: 20px 0 20px 0;
+}
 
+            /* AONDE O FORMULARIO INICIA */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form div{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.nome-email{
+    background: none;
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+    width: 295px;
+    height: 50px;  
+}
+
+.nome-email::placeholder{
+    font-family: 'Jost';
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 17px;
+}
+
+.nome-email {
+    font-family: 'Jost';
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+textarea{
+    background: none;
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+    width: 617px;
+    height: 130px;
+}
+
+textarea::placeholder{
+    font-family: 'Jost';
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+#submite{
+    border: none;
+    border-radius: 15px;
+    margin: 13px auto;
+    width: 179px;
+    height: 53px;
+    color: #1CADFF;
+    background: #FFFFFF;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+
+
+footer{
+    background-color: #001623;
+    height: 950px;
+}
